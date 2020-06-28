@@ -4,6 +4,7 @@ import 'package:retro/Global/global.dart';
 import 'package:retro/authscreen.dart';
 import 'package:retro/hindivideos.dart';
 import 'package:retro/home1.dart';
+import 'package:retro/splash.dart';
 import 'package:retro/videosenglish.dart';
 import 'package:retro/videospage.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -13,7 +14,7 @@ void main() async {
   SharedPreferences prefs = await SharedPreferences.getInstance();
   name = prefs.get('name');
   imageUrl = prefs.get('image');
-
+  check = prefs.containsKey('already');
   runApp(MaterialApp(
       routes: <String, WidgetBuilder>{
         '/Home1': (BuildContext context) => AuthScreen(),
@@ -21,7 +22,8 @@ void main() async {
       },
       debugShowCheckedModeBanner: false,
       color: Flutter95.black,
-      home: prefs.containsKey('already') ? MainScreen() : AuthScreen()));
+      home: Initial()));
+  // prefs.containsKey('already') ? MainScreen() : AuthScreen()));
 }
 
 class Home extends StatefulWidget {

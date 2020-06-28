@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter95/flutter95.dart';
 import 'package:retro/Global/global.dart';
 import 'package:retro/Global/audio.dart';
+import 'package:retro/game.dart';
 import 'package:retro/google.dart';
 import 'package:retro/main.dart';
 import 'package:retro/more.dart';
@@ -121,8 +122,8 @@ class MainScreen extends StatelessWidget {
                 children: <Widget>[
                   Button95(
                     onTap: () {
-                      Navigator.of(context).push(MaterialPageRoute(
-                          builder: (context) => ScreenThatCanPop()));
+                      Navigator.of(context).push(
+                          MaterialPageRoute(builder: (context) => Game()));
                     },
                     child: Text('Games'),
                   ),

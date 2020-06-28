@@ -35,6 +35,10 @@ dependencies:
   assets_audio_player: ^2.0.6+4
   flutter_swiper: ^1.1.6
   youtube_player_flutter: ^6.1.0+4
+  flutter_launcher_icons: ^0.7.3
+  url_launcher: ^5.4.11
+  custom_splash: ^0.0.2
+
   
 
 
@@ -42,9 +46,16 @@ dependencies:
 
 
 
+
+
+
 dev_dependencies:
-  flutter_test:
+   flutter_test:
     sdk: flutter
+flutter_icons:    
+ android: "launcher_icon"    
+ ios: true    
+ image_path: "images/logo.png"    
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -62,6 +73,20 @@ flutter:
     - images/google.jpg
     - images/gamesnew.png
     - images/retro.png
+    - images/book.jpg
+    - images/book1.jpg
+    - images/book2.jpg
+    - images/book3.jpg
+    - images/game.png
+    - images/game1.jpg
+    - images/game3.jpg
+    - images/game4.png
+    - images/game5.jpg
+    - images/game6.png
+    - images/game7.png
+    - images/game8.jpg
+    - images/game9.png
+    - images/logo.png
     - images/videopic.png
     - images/audio.png
     - images/retro1.jpg

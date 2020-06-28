@@ -1,20 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:flutter95/flutter95.dart';
-import 'package:retro/Global/comics.dart';
 import 'package:retro/book.dart';
-import 'package:retro/collection.dart';
-import 'package:retro/retrofashion.dart';
+import 'package:retro/comics1.dart';
 
-class More extends StatefulWidget {
+class Comics extends StatefulWidget {
   @override
-  _MoreState createState() => _MoreState();
+  _ComicsState createState() => _ComicsState();
 }
 
-class _MoreState extends State<More> {
+class _ComicsState extends State<Comics> {
   @override
   Widget build(BuildContext context) {
     return Scaffold95(
-      title: "More",
+      title: "Books",
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
@@ -25,12 +23,12 @@ class _MoreState extends State<More> {
             type: Elevation95Type.up,
             child: Button95(
               child: Text(
-                "Retro Clothes",
+                "Old Comics",
                 style: Flutter95.textStyle,
               ),
               onTap: () {
                 Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => Fashion()));
+                    MaterialPageRoute(builder: (context) => Comics1()));
               },
             ),
           ),
@@ -41,28 +39,12 @@ class _MoreState extends State<More> {
             type: Elevation95Type.up,
             child: Button95(
               child: Text(
-                "Books",
+                "Old Novels",
                 style: Flutter95.textStyle,
               ),
               onTap: () {
                 Navigator.push(
-                    context, MaterialPageRoute(builder: (context) => Comics()));
-              },
-            ),
-          ),
-          SizedBox(
-            height: MediaQuery.of(context).size.height / 13,
-          ),
-          Elevation95(
-            type: Elevation95Type.up,
-            child: Button95(
-              child: Text(
-                "Vintage Collections",
-                style: Flutter95.textStyle,
-              ),
-              onTap: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => Collection()));
+                    context, MaterialPageRoute(builder: (context) => Book()));
               },
             ),
           ),
