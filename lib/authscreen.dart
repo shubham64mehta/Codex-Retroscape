@@ -17,7 +17,18 @@ class _AuthScreenState extends State<AuthScreen> {
       body: Column(
         children: <Widget>[
           SizedBox(
-            height: MediaQuery.of(context).size.height / 2.5,
+            height: MediaQuery.of(context).size.height / 5,
+          ),
+          CircleAvatar(
+            backgroundImage: ExactAssetImage("images/logo.png"),
+            radius: 80,
+          ),
+          SizedBox(
+            height: MediaQuery.of(context).size.height / 19,
+          ),
+          Text('"Where modern meets retro"', style: Flutter95.textStyle),
+          SizedBox(
+            height: MediaQuery.of(context).size.height / 9,
           ),
           Elevation95(
             type: Elevation95Type.up,

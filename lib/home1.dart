@@ -59,9 +59,8 @@ class MainScreen extends StatelessWidget {
             ),
             const SizedBox(height: 14),
             Text('WELCOME ' + name, style: Flutter95.textStyle),
-            SizedBox(height: 5),
-            Text('"Where modern meets retro"', style: Flutter95.textStyle),
-            SizedBox(height: 10),
+            SizedBox(height: 22),
+            //SizedBox(height: 10),
             Row(
               children: <Widget>[
                 CircleAvatar(
