@@ -1,6 +1,6 @@
 # Retroscape-App  :iphone:
 <p align="center">
-  <a href="https://https://github.com/Gyaan-Portal/Gyaan-Portal-App">
+  <a href="https://github.com/shubham64mehta/Codex-Retroscape">
     
   </a>
   </p>
@@ -25,7 +25,7 @@ samples, guidance on mobile development, and a full API reference.
 Download or clone this repo by using the link below:
 
 ```
-https://github.com/Team-FooBar-H-Jaipur/Gyaan-Portal-app.git
+https://github.com/shubham64mehta/Codex-Retroscape.git
 ```
 
 **Step 2:**
