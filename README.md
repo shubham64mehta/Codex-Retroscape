@@ -4,6 +4,9 @@
     
   </a>
   </p>
+ Retroscape is the a stop app where one can get all the old/vintage collections,including songs,videos,games,movie,bookss etc. This app is also designed in retro theme to give the users a taste and feel of older version of technology.
+<br>So enjoy a blast to the past with our app and relieve those golden memories
+
   
   ## 📋 Getting Started
 
