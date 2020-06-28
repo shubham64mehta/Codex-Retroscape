@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "620965672172",
+    "firebase_url": "https://retro-80732.firebaseio.com",
+    "project_id": "retro-80732",
+    "storage_bucket": "retro-80732.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:620965672172:android:360df027352d5a70cee1c9",
+        "android_client_info": {
+          "package_name": "com.example.retro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "620965672172-t9uvlrcivgiunnm4u0vj4j0p67opb567.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.retro",
+            "certificate_hash": "4901f64c1dcbb79c1d481489adb039da1843e81d"
+          }
+        },
+        {
+          "client_id": "620965672172-q2q91qqv8fkvfjoilqt8q608fdmi3cd5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDz2Lb-vGoEo93tqEMnpJCmEbfdN8zPk6w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "620965672172-q2q91qqv8fkvfjoilqt8q608fdmi3cd5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
